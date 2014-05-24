@@ -1,0 +1,126 @@
+{
+  "objectName" : "slidingdoor",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 1500,
+  "description" : "Door goes up... Door goes down... Door goes up... Door goes down...",
+  "shortdescription" : "Sliding Door",
+  "race" : "generic",
+
+  "apexDescription" : "A door with no handle. It appears to slide upwards and downwards.",
+  "avianDescription" : "This door opens upwards.",
+  "floranDescription" : "Sssilly door confuse Floran.",
+  "glitchDescription" : "Appreciation. The mechanism behind this door is intricate.",
+  "humanDescription" : "This door moves so quickly it produces a rush of air.",
+  "hylotlDescription" : "Doors like this are used to control the flow of water in Hylotl cities.",
+
+  "inventoryIcon" : "slidingdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "slidingdoor5.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaces" : [ [0,0], [0,1], [0,2], [0,3], [0,4] ],
+      "anchors" : [ "bottom", "top" ],
+
+      "animationParts" : {
+        "door" : "slidingdoor5.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "slidingdoorh5.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaces" : [ [0,0], [1,0], [2,0], [3,0], [4,0] ],
+      "anchors" : [ "left", "right" ],
+
+      "animationParts" : {
+        "door" : "slidingdoorh5.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "slidingdoor4.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaces" : [ [0,0], [0,1], [0,2], [0,3]],
+      "anchors" : [ "bottom", "top" ],
+
+      "animationParts" : {
+        "door" : "slidingdoor4.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "slidingdoorh4.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaces" : [ [0,0], [1,0], [2,0], [3,0]],
+      "anchors" : [ "left", "right" ],
+
+      "animationParts" : {
+        "door" : "slidingdoorh4.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "slidingdoor6.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaces" : [ [0,0], [0,1], [0,2], [0,3], [0,4], [0,5] ],
+      "anchors" : [ "bottom", "top" ],
+
+      "animationParts" : {
+        "door" : "slidingdoor6.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "slidingdoorh6.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaces" : [ [0,0], [1,0], [2,0], [3,0], [4,0], [5,0] ],
+      "anchors" : [ "left", "right" ],
+
+      "animationParts" : {
+        "door" : "slidingdoorh6.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "slidingdoorh3.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaces" : [ [0,0], [1,0], [2,0]],
+      "anchors" : [ "left", "right" ],
+
+      "animationParts" : {
+        "door" : "slidingdoorh3.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "slidingdoorh2.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaces" : [ [0,0], [1,0]],
+      "anchors" : [ "left", "right" ],
+
+      "animationParts" : {
+        "door" : "slidingdoorh2.png"
+      },
+      "animationPosition" : [0, -16]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ]
+}
