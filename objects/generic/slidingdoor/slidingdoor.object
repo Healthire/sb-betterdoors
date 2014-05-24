@@ -22,7 +22,7 @@
       "dualImage" : "slidingdoor5.png:default",
       "imagePosition" : [-16, 0],
 
-      "spaces" : [ [0,0], [0,1], [0,2], [0,3], [0,4] ],
+      "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ],
 
       "animationParts" : {
@@ -34,7 +34,7 @@
       "dualImage" : "slidingdoorh5.png:default",
       "imagePosition" : [0, -16],
 
-      "spaces" : [ [0,0], [1,0], [2,0], [3,0], [4,0] ],
+      "spaceScan" : 0.1,
       "anchors" : [ "left", "right" ],
 
       "animationParts" : {
@@ -46,7 +46,7 @@
       "dualImage" : "slidingdoor4.png:default",
       "imagePosition" : [-16, 0],
 
-      "spaces" : [ [0,0], [0,1], [0,2], [0,3]],
+      "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ],
 
       "animationParts" : {
@@ -58,7 +58,7 @@
       "dualImage" : "slidingdoorh4.png:default",
       "imagePosition" : [0, -16],
 
-      "spaces" : [ [0,0], [1,0], [2,0], [3,0]],
+      "spaceScan" : 0.1,
       "anchors" : [ "left", "right" ],
 
       "animationParts" : {
@@ -70,7 +70,7 @@
       "dualImage" : "slidingdoor6.png:default",
       "imagePosition" : [-16, 0],
 
-      "spaces" : [ [0,0], [0,1], [0,2], [0,3], [0,4], [0,5] ],
+      "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ],
 
       "animationParts" : {
@@ -82,7 +82,7 @@
       "dualImage" : "slidingdoorh6.png:default",
       "imagePosition" : [0, -16],
 
-      "spaces" : [ [0,0], [1,0], [2,0], [3,0], [4,0], [5,0] ],
+      "spaceScan" : 0.1,
       "anchors" : [ "left", "right" ],
 
       "animationParts" : {
@@ -94,7 +94,7 @@
       "dualImage" : "slidingdoorh3.png:default",
       "imagePosition" : [0, -16],
 
-      "spaces" : [ [0,0], [1,0], [2,0]],
+      "spaceScan" : 0.1,
       "anchors" : [ "left", "right" ],
 
       "animationParts" : {
@@ -106,7 +106,7 @@
       "dualImage" : "slidingdoorh2.png:default",
       "imagePosition" : [0, -16],
 
-      "spaces" : [ [0,0], [1,0]],
+      "spaceScan" : 0.1,
       "anchors" : [ "left", "right" ],
 
       "animationParts" : {

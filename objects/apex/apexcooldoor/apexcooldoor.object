@@ -1,0 +1,121 @@
+{
+  "objectName" : "apexcooldoor",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 2000,
+  "description" : "This door is made of some sort of bulletproof material.",
+  "shortdescription" : "Apex Security Door",
+  "race" : "apex",
+
+  "apexDescription" : "This door looks strong enough to keep anything out... or everyone in.",
+  "avianDescription" : "A strong door. Not even the breeze could slip through.",
+  "floranDescription" : "Door of great ssstrength.",
+  "glitchDescription" : "Jealousy. Such strong materials.",
+  "humanDescription" : "A huge, heavy security door.",
+  "hylotlDescription" : "This looks strong enough to hold back the ocean.",
+
+  "inventoryIcon" : "apexcooldooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexcooldoor5.png:default",
+      "flipImages" : true,
+      "imagePosition" : [-20, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "apexcooldoor5.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "apexcooldoorh5.png:default",
+      "flipImages" : true,
+      "imagePosition" : [0, -20],
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "apexcooldoorh5.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "apexcooldoor4.png:default",
+      "flipImages" : true,
+      "imagePosition" : [-20, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "apexcooldoor4.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "apexcooldoorh4.png:default",
+      "flipImages" : true,
+      "imagePosition" : [0, -20],
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "apexcooldoorh4.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "apexcooldoor6.png:default",
+      "flipImages" : true,
+      "imagePosition" : [-20, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "apexcooldoor6.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "apexcooldoorh6.png:default",
+      "flipImages" : true,
+      "imagePosition" : [0, -20],
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "apexcooldoorh6.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "apexcooldoorh3.png:default",
+      "flipImages" : true,
+      "imagePosition" : [0, -20],
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "apexcooldoorh3.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "apexcooldoorh2.png:default",
+      "flipImages" : true,
+      "imagePosition" : [0, -20],
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "apexcooldoorh2.png"
+      },
+      "animationPosition" : [0, -20]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/apexcooldoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/apexcooldoor_close.wav" ]
+}
