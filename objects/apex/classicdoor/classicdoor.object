@@ -1,0 +1,99 @@
+{
+  "objectName" : "classicdoor",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 1000,
+  "description" : "For some reason I almost expect to find some extra powerful creature behind such a door.",
+  "shortdescription" : "Classic Door",
+  "race" : "apex",
+
+  "apexDescription" : "The handle is solid gold and the wood is banana-scented.",
+  "avianDescription" : "Such a door is open to very few.",
+  "floranDescription" : "The ssscent of Apex yellow fruit come from wood.",
+  "glitchDescription" : "Irritation. Sensors suggest a unique odour. Glitch are not capable of experiencing such things.",
+  "humanDescription" : "Does this door... smell of bananas?",
+  "hylotlDescription" : "Scented wood, a practice common in Hylotl craft.",
+
+  "inventoryIcon" : "classicdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "classicdoor.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "classicdoor.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "classicdoor6.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "classicdoor6.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "classicdoor4.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "classicdoor4.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "classicdoorh.png:default",
+      "imagePosition" : [0, -20],
+
+      "spaces" : [[0,0], [1,0], [2,0], [3,0], [4,0], [0,-1], [1,-1], [2,-1], [3,-1], [4,-1]],
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "classicdoorh.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "classicdoorh4.png:default",
+      "imagePosition" : [0, -20],
+
+      "spaces" : [[0,0], [1,0], [2,0], [3,0], [0,-1], [1,-1], [2,-1], [3,-1]],
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "classicdoorh4.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "classicdoorh6.png:default",
+      "imagePosition" : [0, -20],
+
+      "spaces" : [[0,0], [1,0], [2,0], [3,0], [4,0], [5,0], [0,-1], [1,-1], [2,-1], [3,-1], [4,-1], [5,-1]],
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "classicdoorh6.png"
+      },
+      "animationPosition" : [0, -20]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ],
+
+  "openSounds" : [ "/sfx/objects/woodendoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.wav" ]
+}
