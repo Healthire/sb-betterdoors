@@ -1,0 +1,8 @@
+{
+  "input" : [ ],
+  "output" : {
+    "item" : "apexslidingdoor2",
+    "count" : 1
+  },
+  "groups" : [ "mod", "sfmod" ]
+}
