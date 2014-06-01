@@ -1,0 +1,100 @@
+{
+  "objectName" : "tier8door",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 500,
+  "description" : "A super-strong Violium door.",
+  "shortdescription" : "Violium Door",
+  "race" : "generic",
+
+  "apexDescription" : "This door is very secure.",
+  "avianDescription" : "A very sturdy door.",
+  "floranDescription" : "Floran hide behind door. Jump out. Ssstab!",
+  "glitchDescription" : "Approving. A useful door.",
+  "humanDescription" : "A sturdy Violium door.",
+  "hylotlDescription" : "A robust Violium door.",
+
+  "inventoryIcon" : "tier8dooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier8door.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "tier8door.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "tier8door4.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "tier8door4.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "tier8door6.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "tier8door6.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "tier8doorh.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "tier8doorh.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "tier8doorh4.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "tier8doorh4.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "tier8doorh6.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "tier8doorh6.png"
+      },
+      "animationPosition" : [0, -16]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ],
+
+  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+}
