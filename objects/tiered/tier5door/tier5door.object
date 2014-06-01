@@ -1,0 +1,100 @@
+{
+  "objectName" : "tier5door",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 500,
+  "description" : "A very sturdy aegisalt door.",
+  "shortdescription" : "Aegisalt Door",
+  "race" : "generic",
+
+  "apexDescription" : "This door is very secure.",
+  "avianDescription" : "A very sturdy door.",
+  "floranDescription" : "Floran hide behind door. Jump out. Ssstab!",
+  "glitchDescription" : "Approving. A useful door.",
+  "humanDescription" : "A sturdy aegisalt door.",
+  "hylotlDescription" : "A robust aegisalt door.",
+
+  "inventoryIcon" : "tier5dooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier5door.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "tier5door.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "tier5door4.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "tier5door4.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "tier5door6.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "tier5door6.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "tier5doorh.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "tier5doorh.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "tier5doorh4.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "tier5doorh4.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "tier5doorh6.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "tier5doorh6.png"
+      },
+      "animationPosition" : [0, -16]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ],
+
+  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+}
