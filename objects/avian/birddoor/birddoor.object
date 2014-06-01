@@ -1,0 +1,99 @@
+{
+  "objectName" : "birddoor",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 1500,
+  "description" : "A heavy golden door with huge jewels set into its surface.",
+  "shortdescription" : "Golden Avian Door",
+  "race" : "avian",
+
+  "apexDescription" : "A beautifully carved stone door, set with rubies.",
+  "avianDescription" : "These doors hum with crystal resonance.",
+  "floranDescription" : "Avian door make Floran tingle.",
+  "glitchDescription" : "Investigate. The door contains a power source that is beyond my understanding.",
+  "humanDescription" : "The crystal in this door is warm. It hums gently beneath my fingers.",
+  "hylotlDescription" : "The crystal in this door hums as if generating power. This technology is unknown even to the Hylotl.",
+
+  "inventoryIcon" : "birddooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "birddoor.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "birddoor.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "birddoor4.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "birddoor4.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "birddoor6.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "birddoor6.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "birddoorh.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "birddoorh.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "birddoorh4.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "birddoorh4.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "birddoorh6.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "birddoorh6.png"
+      },
+      "animationPosition" : [0, -16]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ],
+
+  "openSounds" : [ "/sfx/objects/birddoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/birddoor_close.wav" ]
+}
