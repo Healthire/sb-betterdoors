@@ -1,0 +1,8 @@
+{
+  "input" : [ ],
+  "output" : {
+    "item" : "tier7door",
+    "count" : 1
+  },
+  "groups" : [ "mod", "sfmod" ]
+}
