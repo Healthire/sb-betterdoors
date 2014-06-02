@@ -1,0 +1,98 @@
+{
+  "objectName" : "largecastledoor",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 2500,
+  "description" : "A huge door! It's somewhat intimidating.",
+  "shortdescription" : "Glitch Large Door",
+  "race" : "glitch",
+
+  "apexDescription" : "A huge door. You'd need a battering ram to take this down.",
+  "avianDescription" : "This is perhaps the biggest door I've ever seen.",
+  "floranDescription" : "Door big! Make Floran feel sssmall.",
+  "glitchDescription" : "Identification. This is the door to a Glitch keep. It can be barred from the inside by a huge plank of wood.",
+  "humanDescription" : "A huge fortified door. It'd require more than a battering ram to get this open.",
+  "hylotlDescription" : "Such doors are built for those that many wish to harm.",
+
+  //Not sure how to get animation working properly.
+
+  "inventoryIcon" : "largecastledooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "largecastledoor.png:default",
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "largecastledoor.png"
+      },
+      "animationPosition" : [-24, 0]
+    },
+    {
+      "dualImage" : "largecastledoor7.png:default",
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "largecastledoor7.png"
+      },
+      "animationPosition" : [-24, 0]
+    },
+    {
+      "dualImage" : "largecastledoor9.png:default",
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "largecastledoor9.png"
+      },
+      "animationPosition" : [-24, 0]
+    },
+    {
+      "dualImage" : "largecastledoorh.png:default",
+      "imagePosition" : [0, -24],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "largecastledoorh.png"
+      },
+      "animationPosition" : [0, -24]
+    },
+    {
+      "dualImage" : "largecastledoorh7.png:default",
+      "imagePosition" : [0, -24],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "largecastledoorh7.png"
+      },
+      "animationPosition" : [0, -24]
+    },
+    {
+      "dualImage" : "largecastledoorh9.png:default",
+      "imagePosition" : [0, -24],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "largecastledoorh9.png"
+      },
+      "animationPosition" : [0, -24]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ]
+}
