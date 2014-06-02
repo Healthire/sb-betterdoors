@@ -1,0 +1,98 @@
+{
+  "objectName" : "castlehiddendoor",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 1000,
+  "description" : "Something isn't quite right with these bricks.",
+  "shortdescription" : "Glitch Hidden Door",
+  "race" : "glitch",
+
+  "apexDescription" : "Some of these bricks are misplaced.",
+  "avianDescription" : "These bricks don't look real.",
+  "floranDescription" : "Brickss ssmell different to other brickss.",
+  "glitchDescription" : "Scanning. Something is hidden here.",
+  "humanDescription" : "These bricks have an unnatural shine.",
+  "hylotlDescription" : "Something about the way these bricks are crafted is odd.",
+
+  //Not sure how to get animation working properly.
+
+  "inventoryIcon" : "castlehiddendooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "castlehiddendoor.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaces" : [ [-1, 0], [-1, 1], [-1, 2], [-1, 3], [-1, 4], [0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [1, 0], [1, 1], [1, 2], [1, 3], [1, 4] ],
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "castlehiddendoor.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "castlehiddendoor4.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaces" : [ [-1, 0], [-1, 1], [-1, 2], [-1, 3], [0, 0], [0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [1, 3] ],
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "castlehiddendoor4.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "castlehiddendoor6.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaces" : [ [-1, 0], [-1, 1], [-1, 2], [-1, 3], [-1, 4], [-1, 5], [0, 0], [0, 1], [0, 2], [0, 3], [0, 5], [0, 4], [1, 0], [1, 1], [1, 2], [1, 3], [1, 4], [1, 5] ],
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "castlehiddendoor6.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "castlehiddendoorh.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaces" : [ [0, -1], [1, -1], [2, -1], [3, -1], [4, -1], [0, 0], [1, 0], [2, 0], [3, 0], [4, 0], [0, 1], [1, 1], [2, 1], [3, 1], [4, 1] ],
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "castlehiddendoorh.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "castlehiddendoorh4.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaces" : [ [0, -1], [1, -1], [2, -1], [3, -1], [0, 0], [1, 0], [2, 0], [3, 0], [0, 1], [1, 1], [2, 1], [3, 1] ],
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "castlehiddendoorh4.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "castlehiddendoorh6.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaces" : [ [0, -1], [1, -1], [2, -1], [3, -1], [4, -1], [5, -1], [0, 0], [1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [0, 1], [1, 1], [2, 1], [3, 1], [4, 1], [5, 1] ],
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "castlehiddendoorh6.png"
+      },
+      "animationPosition" : [0, -16]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ]
+}
