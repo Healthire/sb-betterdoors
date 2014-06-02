@@ -1,0 +1,8 @@
+{
+  "input" : [ ],
+  "output" : {
+    "item" : "villagedoor",
+    "count" : 1
+  },
+  "groups" : [ "mod", "sfmod" ]
+}
