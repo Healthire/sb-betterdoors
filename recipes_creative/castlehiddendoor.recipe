@@ -1,8 +1,0 @@
-{
-  "input" : [ ],
-  "output" : {
-    "item" : "castlehiddendoor",
-    "count" : 1
-  },
-  "groups" : [ "mod", "sfmod" ]
-}

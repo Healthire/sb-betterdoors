@@ -1,8 +1,0 @@
-{
-  "input" : [ ],
-  "output" : {
-    "item" : "irondoor",
-    "count" : 1
-  },
-  "groups" : [ "mod", "sfmod" ]
-}

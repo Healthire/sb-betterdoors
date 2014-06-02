@@ -1,8 +1,0 @@
-{
-  "input" : [ ],
-  "output" : {
-    "item" : "airlockdoor",
-    "count" : 1
-  },
-  "groups" : [ "mod", "sfmod" ]
-}

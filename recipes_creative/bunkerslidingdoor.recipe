@@ -1,8 +1,0 @@
-{
-  "input" : [ ],
-  "output" : {
-    "item" : "bunkerslidingdoor",
-    "count" : 1
-  },
-  "groups" : [ "mod", "sfmod" ]
-}
