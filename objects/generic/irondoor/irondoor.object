@@ -1,0 +1,99 @@
+{
+  "objectName" : "irondoor",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 500,
+  "description" : "A sturdy iron door. Perfect for keeping things out... or in.",
+  "shortdescription" : "Iron Door",
+  "race" : "generic",
+
+  "apexDescription" : "A tough-looking iron door. Reminds me of Big Ape's correctional facilities.",
+  "avianDescription" : "A sturdy door.",
+  "floranDescription" : "Door grows from ceiling like plant, but ssstronger.",
+  "glitchDescription" : "Admiring. Like a Glitch portcullis, but even sturdier.",
+  "humanDescription" : "An iron door. I wouldn't want to get trapped under here.",
+  "hylotlDescription" : "A boorish iron door. Practical, if unremarkable.",
+
+  "inventoryIcon" : "irondooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "irondoor.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "irondoor.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "irondoor4.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "irondoor4.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "irondoor6.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "irondoor6.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "irondoorh.png:default",
+      "imagePosition" : [0, -20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "irondoorh.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "irondoorh4.png:default",
+      "imagePosition" : [0, -20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "irondoorh4.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "irondoorh6.png:default",
+      "imagePosition" : [0, -20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "irondoorh6.png"
+      },
+      "animationPosition" : [0, -20]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ],
+
+  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+}
