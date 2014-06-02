@@ -19,31 +19,20 @@
   "inventoryIcon" : "apexcooldooricon.png",
   "orientations" : [
     {
-      "dualImage" : "apexcooldoor5.png:default",
-      "flipImages" : true,
+      "dualImage" : "apexcooldoor.png:default",
       "imagePosition" : [-20, 0],
+
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
-        "door" : "apexcooldoor5.png"
+        "door" : "apexcooldoor.png"
       },
-      "animationPosition" : [-20, 0]
-    },
-    {
-      "dualImage" : "apexcooldoorh5.png:default",
-      "flipImages" : true,
-      "imagePosition" : [0, -20],
-      "spaceScan" : 0.1,
-      "anchors" : [ "left", "right" ],
-      "animationParts" : {
-        "door" : "apexcooldoorh5.png"
-      },
-      "animationPosition" : [0, -20]
+     "animationPosition" : [-20, 0]
     },
     {
       "dualImage" : "apexcooldoor4.png:default",
-      "flipImages" : true,
       "imagePosition" : [-20, 0],
+
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
@@ -52,20 +41,9 @@
       "animationPosition" : [-20, 0]
     },
     {
-      "dualImage" : "apexcooldoorh4.png:default",
-      "flipImages" : true,
-      "imagePosition" : [0, -20],
-      "spaceScan" : 0.1,
-      "anchors" : [ "left", "right" ],
-      "animationParts" : {
-        "door" : "apexcooldoorh4.png"
-      },
-      "animationPosition" : [0, -20]
-    },
-    {
       "dualImage" : "apexcooldoor6.png:default",
-      "flipImages" : true,
       "imagePosition" : [-20, 0],
+
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
@@ -74,35 +52,35 @@
       "animationPosition" : [-20, 0]
     },
     {
-      "dualImage" : "apexcooldoorh6.png:default",
-      "flipImages" : true,
+      "dualImage" : "apexcooldoorh.png:default",
       "imagePosition" : [0, -20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "apexcooldoorh.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "apexcooldoorh4.png:default",
+      "imagePosition" : [0, -20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "apexcooldoorh4.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "apexcooldoorh6.png:default",
+      "imagePosition" : [0, -20],
+
       "spaceScan" : 0.1,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "apexcooldoorh6.png"
-      },
-      "animationPosition" : [0, -20]
-    },
-    {
-      "dualImage" : "apexcooldoorh3.png:default",
-      "flipImages" : true,
-      "imagePosition" : [0, -20],
-      "spaceScan" : 0.1,
-      "anchors" : [ "left", "right" ],
-      "animationParts" : {
-        "door" : "apexcooldoorh3.png"
-      },
-      "animationPosition" : [0, -20]
-    },
-    {
-      "dualImage" : "apexcooldoorh2.png:default",
-      "flipImages" : true,
-      "imagePosition" : [0, -20],
-      "spaceScan" : 0.1,
-      "anchors" : [ "left", "right" ],
-      "animationParts" : {
-        "door" : "apexcooldoorh2.png"
       },
       "animationPosition" : [0, -20]
     }

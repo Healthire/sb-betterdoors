@@ -19,28 +19,15 @@
   "inventoryIcon" : "slidingdooricon.png",
   "orientations" : [
     {
-      "dualImage" : "slidingdoor5.png:default",
+      "dualImage" : "slidingdoor.png:default",
       "imagePosition" : [-16, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ],
-
       "animationParts" : {
-        "door" : "slidingdoor5.png"
+        "door" : "slidingdoor.png"
       },
       "animationPosition" : [-16, 0]
-    },
-    {
-      "dualImage" : "slidingdoorh5.png:default",
-      "imagePosition" : [0, -16],
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "left", "right" ],
-
-      "animationParts" : {
-        "door" : "slidingdoorh5.png"
-      },
-      "animationPosition" : [0, -16]
     },
     {
       "dualImage" : "slidingdoor4.png:default",
@@ -48,23 +35,10 @@
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ],
-
       "animationParts" : {
         "door" : "slidingdoor4.png"
       },
       "animationPosition" : [-16, 0]
-    },
-    {
-      "dualImage" : "slidingdoorh4.png:default",
-      "imagePosition" : [0, -16],
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "left", "right" ],
-
-      "animationParts" : {
-        "door" : "slidingdoorh4.png"
-      },
-      "animationPosition" : [0, -16]
     },
     {
       "dualImage" : "slidingdoor6.png:default",
@@ -72,11 +46,32 @@
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ],
-
       "animationParts" : {
         "door" : "slidingdoor6.png"
       },
       "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "slidingdoorh.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "slidingdoorh.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "slidingdoorh4.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "slidingdoorh4.png"
+      },
+      "animationPosition" : [0, -16]
     },
     {
       "dualImage" : "slidingdoorh6.png:default",
@@ -84,33 +79,8 @@
 
       "spaceScan" : 0.1,
       "anchors" : [ "left", "right" ],
-
       "animationParts" : {
         "door" : "slidingdoorh6.png"
-      },
-      "animationPosition" : [0, -16]
-    },
-    {
-      "dualImage" : "slidingdoorh3.png:default",
-      "imagePosition" : [0, -16],
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "left", "right" ],
-
-      "animationParts" : {
-        "door" : "slidingdoorh3.png"
-      },
-      "animationPosition" : [0, -16]
-    },
-    {
-      "dualImage" : "slidingdoorh2.png:default",
-      "imagePosition" : [0, -16],
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "left", "right" ],
-
-      "animationParts" : {
-        "door" : "slidingdoorh2.png"
       },
       "animationPosition" : [0, -16]
     }
