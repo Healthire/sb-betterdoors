@@ -1,0 +1,100 @@
+{
+  "objectName" : "fleshdoor",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 800,
+  "description" : "A squishy, fleshy door.",
+  "shortdescription" : "Flesh Door",
+  "race" : "generic",
+
+  "apexDescription" : "This is nightmarish.",
+  "avianDescription" : "A grotesque door.",
+  "floranDescription" : "Floran ssstab door open.",
+  "glitchDescription" : "Statement. The most disgusting door ever.",
+  "humanDescription" : "I guess I'd better open it.",
+  "hylotlDescription" : "What a sickening door.",
+
+  "inventoryIcon" : "fleshdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "fleshdoor.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "fleshdoor.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "fleshdoor4.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "fleshdoor4.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "fleshdoor6.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "fleshdoor6.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "fleshdoorh.png:default",
+      "imagePosition" : [0, -20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "fleshdoorh.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "fleshdoorh4.png:default",
+      "imagePosition" : [0, -20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "fleshdoorh4.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "fleshdoorh6.png:default",
+      "imagePosition" : [0, -20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "fleshdoorh6.png"
+      },
+      "animationPosition" : [0, -20]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ],
+
+  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+}
