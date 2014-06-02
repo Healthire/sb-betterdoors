@@ -1,12 +1,12 @@
 {
-    "name": "autodoor",
+    "name": "Better Doors",
     "version": "Beta v. Enraged Koala",
     "path": ".",
     "dependencies": [],
     "metadata": {
         "author": "Healthire",
-        "version": "0.1",
+        "version": "1.0",
         "description": "Doors that will automatically orient themselves and change height or width",
-        "support_url": "asd"
+        "support_url": ""
     }
 }
