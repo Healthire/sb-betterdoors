@@ -1,0 +1,96 @@
+{
+  "objectName" : "wreckdoor",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 300,
+  "description" : "This door is almost rusted shut.",
+  "shortdescription" : "Wrecked Door",
+  "race" : "generic",
+
+  "apexDescription" : "A rusted door, just about opens.",
+  "avianDescription" : "The door is heavy and rusted.",
+  "floranDescription" : "Door very heavy. Hard to open.",
+  "glitchDescription" : "Observation. Rust makes this door creek.",
+  "humanDescription" : "A rusty old door. Very heavy.",
+  "hylotlDescription" : "This door was once very secure.",
+
+  "inventoryIcon" : "wreckdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wreckdoor.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "wreckdoor.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "wreckdoor4.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "wreckdoor4.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "wreckdoor6.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "wreckdoor6.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "wreckdoorh.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "wreckdoorh.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "wreckdoorh4.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "wreckdoorh4.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "wreckdoorh6.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "wreckdoorh6.png"
+      },
+      "animationPosition" : [0, -16]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ]
+}
