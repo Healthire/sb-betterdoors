@@ -1,24 +1,11 @@
 {
-  "objectName" : "tier10door",
-  "printable" : false,
-  "rarity" : "Common",
-  "objectType" : "wire",
+  "__merge" : [
+      [ "delete", "animationParts" ],
+      [ "delete", "animationPosition" ],
+      [ "overwrite", "orientations" ]
+  ],
 
-  "category" : "door",
-  "price" : 500,
-  "description" : "An impenetrable impervium door.",
-  "shortdescription" : "Impervium Door",
-  "race" : "generic",
-
-  "apexDescription" : "This door is entirely secure.",
-  "avianDescription" : "A totally sturdy door.",
-  "floranDescription" : "Floran hide behind door. Jump out. Ssstab!",
-  "glitchDescription" : "Approving. A flawless door.",
-  "humanDescription" : "An impenetrable impervium door.",
-  "hylotlDescription" : "A robust impervium door.",
-
-  "inventoryIcon" : "tier10dooricon.png",
-  "orientations" : [
+  "orientations": [
     {
       "dualImage" : "tier10door.png:default",
       "imagePosition" : [-20, 0],
@@ -85,16 +72,5 @@
       },
       "animationPosition" : [0, -20]
     }
-  ],
-
-  "scripts" : [ "/objects/wired/door/door.lua" ],
-  "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/door/door.animation",
-
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
-
-  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+  ]
 }

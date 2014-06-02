@@ -1,23 +1,11 @@
 {
-  "objectName" : "irondoor",
-  "rarity" : "Common",
-  "objectType" : "wire",
+  "__merge" : [
+      [ "delete", "animationParts" ],
+      [ "delete", "animationPosition" ],
+      [ "overwrite", "orientations" ]
+  ],
 
-  "category" : "door",
-  "price" : 500,
-  "description" : "A sturdy iron door. Perfect for keeping things out... or in.",
-  "shortdescription" : "Iron Door",
-  "race" : "generic",
-
-  "apexDescription" : "A tough-looking iron door. Reminds me of Big Ape's correctional facilities.",
-  "avianDescription" : "A sturdy door.",
-  "floranDescription" : "Door grows from ceiling like plant, but ssstronger.",
-  "glitchDescription" : "Admiring. Like a Glitch portcullis, but even sturdier.",
-  "humanDescription" : "An iron door. I wouldn't want to get trapped under here.",
-  "hylotlDescription" : "A boorish iron door. Practical, if unremarkable.",
-
-  "inventoryIcon" : "irondooricon.png",
-  "orientations" : [
+  "orientations": [
     {
       "dualImage" : "irondoor.png:default",
       "imagePosition" : [-20, 0],
@@ -84,16 +72,5 @@
       },
       "animationPosition" : [0, -20]
     }
-  ],
-
-  "scripts" : [ "/objects/wired/door/door.lua" ],
-  "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/door/door.animation",
-
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
-
-  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+  ]
 }

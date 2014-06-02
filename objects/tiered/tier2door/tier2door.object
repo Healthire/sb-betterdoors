@@ -1,24 +1,11 @@
 {
-  "objectName" : "tier2door",
-  "printable" : false,
-  "rarity" : "Common",
-  "objectType" : "wire",
+  "__merge" : [
+      [ "delete", "animationParts" ],
+      [ "delete", "animationPosition" ],
+      [ "overwrite", "orientations" ]
+  ],
 
-  "category" : "door",
-  "price" : 500,
-  "description" : "A basic steel door.",
-  "shortdescription" : "Steel Door",
-  "race" : "generic",
-
-  "apexDescription" : "This door is relatively secure.",
-  "avianDescription" : "Fairly sturdy for a basic door.",
-  "floranDescription" : "Floran hide behind door. Jump out. Ssstab!",
-  "glitchDescription" : "Approving. A useful, basic door.",
-  "humanDescription" : "A sturdy steel door.",
-  "hylotlDescription" : "A simple steel door.",
-
-  "inventoryIcon" : "tier2dooricon.png",
-  "orientations" : [
+  "orientations": [
     {
       "dualImage" : "tier2door.png:default",
       "imagePosition" : [-16, 0],
@@ -85,16 +72,5 @@
       },
       "animationPosition" : [0, -16]
     }
-  ],
-
-  "scripts" : [ "/objects/wired/door/door.lua" ],
-  "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/door/door.animation",
-
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
-
-  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+  ]
 }

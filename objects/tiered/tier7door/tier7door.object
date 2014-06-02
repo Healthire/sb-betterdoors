@@ -1,24 +1,11 @@
 {
-  "objectName" : "tier7door",
-  "printable" : false,
-  "rarity" : "Common",
-  "objectType" : "wire",
+  "__merge" : [
+      [ "delete", "animationParts" ],
+      [ "delete", "animationPosition" ],
+      [ "overwrite", "orientations" ]
+  ],
 
-  "category" : "door",
-  "price" : 500,
-  "description" : "A very sturdy Cerulium door.",
-  "shortdescription" : "Cerulium Door",
-  "race" : "generic",
-
-  "apexDescription" : "This door is very secure.",
-  "avianDescription" : "A very sturdy door.",
-  "floranDescription" : "Floran hide behind door. Jump out. Ssstab!",
-  "glitchDescription" : "Approving. A useful door.",
-  "humanDescription" : "A sturdy Cerulium door.",
-  "hylotlDescription" : "A robust Cerulium door.",
-
-  "inventoryIcon" : "tier7dooricon.png",
-  "orientations" : [
+  "orientations": [
     {
       "dualImage" : "tier7door.png:default",
       "imagePosition" : [-20, 0],
@@ -85,16 +72,5 @@
       },
       "animationPosition" : [0, -20]
     }
-  ],
-
-  "scripts" : [ "/objects/wired/door/door.lua" ],
-  "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/door/door.animation",
-
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
-
-  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+  ]
 }

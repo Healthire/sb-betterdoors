@@ -1,24 +1,11 @@
 {
-  "objectName" : "tier8door",
-  "printable" : false,
-  "rarity" : "Common",
-  "objectType" : "wire",
+  "__merge" : [
+      [ "delete", "animationParts" ],
+      [ "delete", "animationPosition" ],
+      [ "overwrite", "orientations" ]
+  ],
 
-  "category" : "door",
-  "price" : 500,
-  "description" : "A super-strong Violium door.",
-  "shortdescription" : "Violium Door",
-  "race" : "generic",
-
-  "apexDescription" : "This door is very secure.",
-  "avianDescription" : "A very sturdy door.",
-  "floranDescription" : "Floran hide behind door. Jump out. Ssstab!",
-  "glitchDescription" : "Approving. A useful door.",
-  "humanDescription" : "A sturdy Violium door.",
-  "hylotlDescription" : "A robust Violium door.",
-
-  "inventoryIcon" : "tier8dooricon.png",
-  "orientations" : [
+  "orientations": [
     {
       "dualImage" : "tier8door.png:default",
       "imagePosition" : [-16, 0],
@@ -85,16 +72,5 @@
       },
       "animationPosition" : [0, -16]
     }
-  ],
-
-  "scripts" : [ "/objects/wired/door/door.lua" ],
-  "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/door/door.animation",
-
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
-
-  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+  ]
 }

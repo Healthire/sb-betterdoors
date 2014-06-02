@@ -1,23 +1,11 @@
 {
-  "objectName" : "pressuredoor",
-  "rarity" : "Common",
-  "objectType" : "wire",
+  "__merge" : [
+      [ "delete", "animationParts" ],
+      [ "delete", "animationPosition" ],
+      [ "overwrite", "orientations" ]
+  ],
 
-  "category" : "door",
-  "price" : 1500,
-  "description" : "A hefty pressurized door.",
-  "shortdescription" : "Pressurized Door",
-  "race" : "hylotl",
-
-  "apexDescription" : "A sturdy pressurized door.",
-  "avianDescription" : "A very heavy metal door.",
-  "floranDescription" : "Big heavy door.",
-  "glitchDescription" : "Concerned. This door is very heavy.",
-  "humanDescription" : "It's a big, sturdy pressurized door.",
-  "hylotlDescription" : "A well-crafted pressurized door.",
-
-  "inventoryIcon" : "pressuredooricon.png",
-  "orientations" : [
+  "orientations": [
     {
       "dualImage" : "pressuredoor.png:default",
       "imagePosition" : [-20, 0],
@@ -84,16 +72,5 @@
       },
       "animationPosition" : [0, -20]
     }
-  ],
-
-  "scripts" : [ "/objects/wired/door/door.lua" ],
-  "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/door/door.animation",
-
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
-
-  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+  ]
 }

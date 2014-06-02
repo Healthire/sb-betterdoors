@@ -1,25 +1,11 @@
 {
-  "objectName" : "castledoor",
-  "rarity" : "Common",
-  "objectType" : "wire",
+  "__merge" : [
+      [ "delete", "animationParts" ],
+      [ "delete", "animationPosition" ],
+      [ "overwrite", "orientations" ]
+  ],
 
-  "category" : "door",
-  "price" : 750,
-  "description" : "A strong door from a Glitch castle.",
-  "shortdescription" : "Glitch Castle Door",
-  "race" : "glitch",
-
-  "apexDescription" : "Though wooden, this door is strong.",
-  "avianDescription" : "This door is much stronger than it looks.",
-  "floranDescription" : "Door sso sstrong.",
-  "glitchDescription" : "Educate. The Glitch reinforce their doors to make their castles secure.",
-  "humanDescription" : "A heavy door with a barred window.",
-  "hylotlDescription" : "A perfect door for a defensive structure.",
-
-  //Not sure how to get animation working properly.
-
-  "inventoryIcon" : "castledooricon.png",
-  "orientations" : [
+  "orientations": [
     {
       "dualImage" : "castledoor.png:default",
       "imagePosition" : [-16, 0],
@@ -86,16 +72,5 @@
       },
       "animationPosition" : [0, -16]
     }
-  ],
-
-  "scripts" : [ "/objects/wired/door/door.lua" ],
-  "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/door/door.animation",
-
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
-
-  "openSounds" : [ "/sfx/objects/castledoor_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/castledoor_close.wav" ]
+  ]
 }

@@ -1,23 +1,11 @@
 {
-  "objectName" : "airlockdoor",
-  "rarity" : "Common",
-  "objectType" : "wire",
+  "__merge" : [
+      [ "delete", "animationParts" ],
+      [ "delete", "animationPosition" ],
+      [ "overwrite", "orientations" ]
+  ],
 
-  "category" : "door",
-  "price" : 1500,
-  "description" : "A sturdy airlock door.",
-  "shortdescription" : "Airlock Door",
-  "race" : "hylotl",
-
-  "apexDescription" : "A great big airlock door. Sturdy.",
-  "avianDescription" : "An intimidatingly large metal door.",
-  "floranDescription" : "Frogman build big sturdy door to keep Floran out. Fearsss Floran.",
-  "glitchDescription" : "Quizzical. Where is the doorknob?",
-  "humanDescription" : "This is a departure from the Hylotl's traditional aesthetic.",
-  "hylotlDescription" : "This airlock door provides top-notch security.",
-
-  "inventoryIcon" : "airlockdooricon.png",
-  "orientations" : [
+  "orientations": [
     {
       "dualImage" : "airlockdoor.png:default",
       "imagePosition" : [-8, 0],
@@ -84,16 +72,5 @@
       },
       "animationPosition" : [0, -8]
     }
-  ],
-
-  "scripts" : [ "/objects/wired/door/door.lua" ],
-  "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/door/door.animation",
-
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
-
-  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+  ]
 }

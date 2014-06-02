@@ -1,24 +1,11 @@
 {
-  "objectName" : "icedoor",
-  "printable" : false,
-  "rarity" : "Common",
-  "objectType" : "wire",
+  "__merge" : [
+      [ "delete", "animationParts" ],
+      [ "delete", "animationPosition" ],
+      [ "overwrite", "orientations" ]
+  ],
 
-  "category" : "door",
-  "price" : 800,
-  "description" : "An ice door. Don't grip the handle for too long.",
-  "shortdescription" : "Ice Door",
-  "race" : "generic",
-
-  "apexDescription" : "A door made of ice. I can see my reflection in it.",
-  "avianDescription" : "Standing by this door for too long makes me shiver.",
-  "floranDescription" : "Floran not sssee door, run ssstraight at it.",
-  "glitchDescription" : "Analysis. The ice is layered, making it hard to break this door down.",
-  "humanDescription" : "A frozen door. Cold to the touch.",
-  "hylotlDescription" : "This icy door is very well crafted.",
-
-  "inventoryIcon" : "icedooricon.png",
-  "orientations" : [
+  "orientations": [
     {
       "dualImage" : "icedoor.png:default",
       "imagePosition" : [-16, 0],
@@ -85,16 +72,5 @@
       },
       "animationPosition" : [0, -16]
     }
-  ],
-
-  "scripts" : [ "/objects/wired/door/door.lua" ],
-  "scriptDelta" : 5,
-
-  "animation" : "/objects/wired/door/door.animation",
-
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
-
-  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+  ]
 }
