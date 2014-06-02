@@ -1,0 +1,100 @@
+{
+  "objectName" : "sandstonedoor",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 800,
+  "description" : "A rough sandstone door.",
+  "shortdescription" : "Sandstone Door",
+  "race" : "generic",
+
+  "apexDescription" : "A door made of sandstone.",
+  "avianDescription" : "A well-made sandstone door.",
+  "floranDescription" : "Sssandy door.",
+  "glitchDescription" : "Observation. A hardy sandstone door.",
+  "humanDescription" : "Nice door.",
+  "hylotlDescription" : "A rough, sandy door. Crude.",
+
+  "inventoryIcon" : "sandstonedooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sandstonedoor.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "sandstonedoor.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "sandstonedoor4.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "sandstonedoor4.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "sandstonedoor6.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "sandstonedoor6.png"
+      },
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "dualImage" : "sandstonedoorh.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "sandstonedoorh.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "sandstonedoorh4.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "sandstonedoorh4.png"
+      },
+      "animationPosition" : [0, -16]
+    },
+    {
+      "dualImage" : "sandstonedoorh6.png:default",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "sandstonedoorh6.png"
+      },
+      "animationPosition" : [0, -16]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ],
+
+  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+}
