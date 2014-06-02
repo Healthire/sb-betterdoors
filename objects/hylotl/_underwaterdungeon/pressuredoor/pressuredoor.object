@@ -1,0 +1,99 @@
+{
+  "objectName" : "pressuredoor",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 1500,
+  "description" : "A hefty pressurized door.",
+  "shortdescription" : "Pressurized Door",
+  "race" : "hylotl",
+
+  "apexDescription" : "A sturdy pressurized door.",
+  "avianDescription" : "A very heavy metal door.",
+  "floranDescription" : "Big heavy door.",
+  "glitchDescription" : "Concerned. This door is very heavy.",
+  "humanDescription" : "It's a big, sturdy pressurized door.",
+  "hylotlDescription" : "A well-crafted pressurized door.",
+
+  "inventoryIcon" : "pressuredooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pressuredoor.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "pressuredoor.png"
+      },
+     "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "pressuredoor4.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "pressuredoor4.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "pressuredoor6.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "pressuredoor6.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "pressuredoorh.png:default",
+      "imagePosition" : [0, -20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "pressuredoorh.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "pressuredoorh4.png:default",
+      "imagePosition" : [0, -20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "pressuredoorh4.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "pressuredoorh6.png:default",
+      "imagePosition" : [0, -20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "pressuredoorh6.png"
+      },
+      "animationPosition" : [0, -20]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ],
+
+  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+}
