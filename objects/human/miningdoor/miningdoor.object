@@ -1,0 +1,100 @@
+{
+  "objectName" : "miningdoor",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 500,
+  "description" : "An industrial-looking metal door.",
+  "shortdescription" : "Miner's Door",
+  "race" : "human",
+
+  "apexDescription" : "This door could withstand a lot of firepower.",
+  "avianDescription" : "A robust metal door.",
+  "floranDescription" : "Door provide tactical vantage point. Jump out. Ssstab!",
+  "glitchDescription" : "Approving. A door made with tough metal.",
+  "humanDescription" : "A sturdy door of Human origin.",
+  "hylotlDescription" : "An ugly door designed with function in mind.",
+
+  "inventoryIcon" : "miningdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "miningdoor.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "miningdoor.png"
+      },
+     "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "miningdoor4.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "miningdoor4.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "miningdoor6.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "animationParts" : {
+        "door" : "miningdoor6.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "miningdoorh.png:default",
+      "imagePosition" : [0, -20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "miningdoorh.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "miningdoorh4.png:default",
+      "imagePosition" : [0, -20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "miningdoorh4.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "miningdoorh6.png:default",
+      "imagePosition" : [0, -20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "animationParts" : {
+        "door" : "miningdoorh6.png"
+      },
+      "animationPosition" : [0, -20]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ],
+
+  "openSounds" : [ "/sfx/objects/apexcooldoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/apexcooldoor_close.wav" ]
+}
