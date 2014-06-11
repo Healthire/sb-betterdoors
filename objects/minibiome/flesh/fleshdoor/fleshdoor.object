@@ -8,69 +8,69 @@
   "orientations": [
     {
       "dualImage" : "fleshdoor.png:default",
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "fleshdoor.png"
       },
-      "animationPosition" : [-20, 0]
+      "animationPosition" : [-16, 0]
     },
     {
       "dualImage" : "fleshdoor4.png:default",
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "fleshdoor4.png"
       },
-      "animationPosition" : [-20, 0]
+      "animationPosition" : [-16, 0]
     },
     {
       "dualImage" : "fleshdoor6.png:default",
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "fleshdoor6.png"
       },
-      "animationPosition" : [-20, 0]
+      "animationPosition" : [-16, 0]
     },
     {
       "dualImage" : "fleshdoorh.png:default",
-      "imagePosition" : [0, -20],
+      "imagePosition" : [0, -16],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "fleshdoorh.png"
       },
-      "animationPosition" : [0, -20]
+      "animationPosition" : [0, -16]
     },
     {
       "dualImage" : "fleshdoorh4.png:default",
-      "imagePosition" : [0, -20],
+      "imagePosition" : [0, -16],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "fleshdoorh4.png"
       },
-      "animationPosition" : [0, -20]
+      "animationPosition" : [0, -16]
     },
     {
       "dualImage" : "fleshdoorh6.png:default",
-      "imagePosition" : [0, -20],
+      "imagePosition" : [0, -16],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "fleshdoorh6.png"
       },
-      "animationPosition" : [0, -20]
+      "animationPosition" : [0, -16]
     }
   ]
 }

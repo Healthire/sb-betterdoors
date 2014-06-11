@@ -10,7 +10,7 @@
       "dualImage" : "largecastledoor.png:default",
       "imagePosition" : [-24, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "largecastledoor.png"
@@ -21,7 +21,7 @@
       "dualImage" : "largecastledoor7.png:default",
       "imagePosition" : [-24, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "largecastledoor7.png"
@@ -32,7 +32,7 @@
       "dualImage" : "largecastledoor9.png:default",
       "imagePosition" : [-24, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "largecastledoor9.png"
@@ -43,7 +43,7 @@
       "dualImage" : "largecastledoorh.png:default",
       "imagePosition" : [0, -24],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "largecastledoorh.png"
@@ -54,7 +54,7 @@
       "dualImage" : "largecastledoorh7.png:default",
       "imagePosition" : [0, -24],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "largecastledoorh7.png"
@@ -65,7 +65,7 @@
       "dualImage" : "largecastledoorh9.png:default",
       "imagePosition" : [0, -24],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "largecastledoorh9.png"

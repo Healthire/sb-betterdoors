@@ -8,69 +8,69 @@
   "orientations": [
     {
       "dualImage" : "miningdoor.png:default",
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.3,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "miningdoor.png"
       },
-     "animationPosition" : [-20, 0]
+     "animationPosition" : [-16, 0]
     },
     {
       "dualImage" : "miningdoor4.png:default",
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.3,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "miningdoor4.png"
       },
-      "animationPosition" : [-20, 0]
+      "animationPosition" : [-16, 0]
     },
     {
       "dualImage" : "miningdoor6.png:default",
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.3,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "miningdoor6.png"
       },
-      "animationPosition" : [-20, 0]
+      "animationPosition" : [-16, 0]
     },
     {
       "dualImage" : "miningdoorh.png:default",
-      "imagePosition" : [0, -20],
+      "imagePosition" : [0, -16],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.3,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "miningdoorh.png"
       },
-      "animationPosition" : [0, -20]
+      "animationPosition" : [0, -16]
     },
     {
       "dualImage" : "miningdoorh4.png:default",
-      "imagePosition" : [0, -20],
+      "imagePosition" : [0, -16],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.3,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "miningdoorh4.png"
       },
-      "animationPosition" : [0, -20]
+      "animationPosition" : [0, -16]
     },
     {
       "dualImage" : "miningdoorh6.png:default",
-      "imagePosition" : [0, -20],
+      "imagePosition" : [0, -16],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.3,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "miningdoorh6.png"
       },
-      "animationPosition" : [0, -20]
+      "animationPosition" : [0, -16]
     }
   ]
 }

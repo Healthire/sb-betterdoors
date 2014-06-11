@@ -8,69 +8,69 @@
   "orientations": [
     {
       "dualImage" : "pressuredoor.png:default",
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.8,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "pressuredoor.png"
       },
-     "animationPosition" : [-20, 0]
+     "animationPosition" : [-16, 0]
     },
     {
       "dualImage" : "pressuredoor4.png:default",
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.8,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "pressuredoor4.png"
       },
-      "animationPosition" : [-20, 0]
+      "animationPosition" : [-16, 0]
     },
     {
       "dualImage" : "pressuredoor6.png:default",
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.8,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "pressuredoor6.png"
       },
-      "animationPosition" : [-20, 0]
+      "animationPosition" : [-16, 0]
     },
     {
       "dualImage" : "pressuredoorh.png:default",
-      "imagePosition" : [0, -20],
+      "imagePosition" : [0, -16],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.8,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "pressuredoorh.png"
       },
-      "animationPosition" : [0, -20]
+      "animationPosition" : [0, -16]
     },
     {
       "dualImage" : "pressuredoorh4.png:default",
-      "imagePosition" : [0, -20],
+      "imagePosition" : [0, -16],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.8,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "pressuredoorh4.png"
       },
-      "animationPosition" : [0, -20]
+      "animationPosition" : [0, -16]
     },
     {
       "dualImage" : "pressuredoorh6.png:default",
-      "imagePosition" : [0, -20],
+      "imagePosition" : [0, -16],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.8,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "pressuredoorh6.png"
       },
-      "animationPosition" : [0, -20]
+      "animationPosition" : [0, -16]
     }
   ]
 }

@@ -8,69 +8,69 @@
   "orientations": [
     {
       "dualImage" : "huntingdoor1.png:default",
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "huntingdoor1.png"
       },
-     "animationPosition" : [-20, 0]
+     "animationPosition" : [-16, 0]
     },
     {
       "dualImage" : "huntingdoor14.png:default",
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "huntingdoor14.png"
       },
-      "animationPosition" : [-20, 0]
+      "animationPosition" : [-16, 0]
     },
     {
       "dualImage" : "huntingdoor16.png:default",
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "huntingdoor16.png"
       },
-      "animationPosition" : [-20, 0]
+      "animationPosition" : [-16, 0]
     },
     {
       "dualImage" : "huntingdoor1h.png:default",
-      "imagePosition" : [0, -20],
+      "imagePosition" : [0, -16],
 
       "spaceScan" : 0.1,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "huntingdoor1h.png"
       },
-      "animationPosition" : [0, -20]
+      "animationPosition" : [0, -16]
     },
     {
       "dualImage" : "huntingdoor1h4.png:default",
-      "imagePosition" : [0, -20],
+      "imagePosition" : [0, -16],
 
       "spaceScan" : 0.1,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "huntingdoor1h4.png"
       },
-      "animationPosition" : [0, -20]
+      "animationPosition" : [0, -16]
     },
     {
       "dualImage" : "huntingdoor1h6.png:default",
-      "imagePosition" : [0, -20],
+      "imagePosition" : [0, -16],
 
       "spaceScan" : 0.1,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "huntingdoor1h6.png"
       },
-      "animationPosition" : [0, -20]
+      "animationPosition" : [0, -16]
     }
   ]
 }

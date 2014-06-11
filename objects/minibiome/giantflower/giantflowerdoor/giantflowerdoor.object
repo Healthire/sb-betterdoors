@@ -10,7 +10,7 @@
       "dualImage" : "giantflowerdoor.png:default",
       "imagePosition" : [-16, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "giantflowerdoor.png"
@@ -21,7 +21,7 @@
       "dualImage" : "giantflowerdoor4.png:default",
       "imagePosition" : [-16, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "giantflowerdoor4.png"
@@ -32,7 +32,7 @@
       "dualImage" : "giantflowerdoor6.png:default",
       "imagePosition" : [-16, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "giantflowerdoor6.png"
@@ -43,7 +43,7 @@
       "dualImage" : "giantflowerdoorh.png:default",
       "imagePosition" : [0, -16],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "giantflowerdoorh.png"
@@ -54,7 +54,7 @@
       "dualImage" : "giantflowerdoorh4.png:default",
       "imagePosition" : [0, -16],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "giantflowerdoorh4.png"
@@ -65,7 +65,7 @@
       "dualImage" : "giantflowerdoorh6.png:default",
       "imagePosition" : [0, -16],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "giantflowerdoorh6.png"

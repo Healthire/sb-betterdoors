@@ -8,69 +8,69 @@
   "orientations": [
     {
       "dualImage" : "tier7door.png:default",
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "tier7door.png"
       },
-     "animationPosition" : [-20, 0]
+     "animationPosition" : [-16, 0]
     },
     {
       "dualImage" : "tier7door4.png:default",
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "tier7door4.png"
       },
-      "animationPosition" : [-20, 0]
+      "animationPosition" : [-16, 0]
     },
     {
       "dualImage" : "tier7door6.png:default",
-      "imagePosition" : [-20, 0],
+      "imagePosition" : [-16, 0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "bottom", "top" ],
       "animationParts" : {
         "door" : "tier7door6.png"
       },
-      "animationPosition" : [-20, 0]
+      "animationPosition" : [-16, 0]
     },
     {
       "dualImage" : "tier7doorh.png:default",
-      "imagePosition" : [0, -20],
+      "imagePosition" : [0, -16],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "tier7doorh.png"
       },
-      "animationPosition" : [0, -20]
+      "animationPosition" : [0, -16]
     },
     {
       "dualImage" : "tier7doorh4.png:default",
-      "imagePosition" : [0, -20],
+      "imagePosition" : [0, -16],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "tier7doorh4.png"
       },
-      "animationPosition" : [0, -20]
+      "animationPosition" : [0, -16]
     },
     {
       "dualImage" : "tier7doorh6.png:default",
-      "imagePosition" : [0, -20],
+      "imagePosition" : [0, -16],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "left", "right" ],
       "animationParts" : {
         "door" : "tier7doorh6.png"
       },
-      "animationPosition" : [0, -20]
+      "animationPosition" : [0, -16]
     }
   ]
 }
